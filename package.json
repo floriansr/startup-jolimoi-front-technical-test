@@ -7,13 +7,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "atomize": "^1.0.26",
     "axios": "^0.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
     "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +27,6 @@
     "cy:open": "cypress open",
     "test:e2e": "cypress run",
     "test:e2e:ci": "concurrently --kill-others --success=first 'yarn start --progress=false --no-info' 'yarn test:e2e'"
-
   },
   "eslintConfig": {
     "extends": "react-app"
